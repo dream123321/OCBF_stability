@@ -3,7 +3,7 @@ OCBF
 
 # Installation
 conda create --name ocbf_env python=3.10  
-cd OCBF/ocbf  
+cd OCBF_stability/ocbf/  
 python setup.py install  
 pip install -r requirement.txt  
 if scf_cal_engine = ABACUS, please  install ase-abacus (pip install git https://gitlab.com/1041176461/ase-abacus.git).  
